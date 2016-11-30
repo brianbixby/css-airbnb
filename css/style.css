@@ -2,24 +2,27 @@ body {
   background-color: #BEA278;
 }
 #wrapper {
-  background-color: #BEA278;
-  width: 940px;
+  width: 960px;
   margin: 0 auto;
 }
-.top {
+.imagerow {
+  display: block;
+}
+.imagecontainer{
+  display: inline-block;
   width: 293px;
   height: 293px;
   margin: 20px 10px;
-  float: left;
+  position: relative;
 }
-.bottom {
+
+.imagecontainer img {
+  position: absolute;
+  top:0;
+  left:0;
   width: 293px;
   height: 293px;
-  margin: 20px 10px;
-  float: left;
-}
-.clearfix, .clearfix2 {
-  clear: both;
+  z-index: -1;
 }
 
 h1, h4 {
@@ -35,16 +38,12 @@ h1, h4 {
   margin: 0 auto 20px auto;
   font-size: 14px;
 }
-.city {
-  position: absolute;
-  left: 75px;
-  top: 75px;
+.imagecontainer h6{
+  margin: 0;
+  line-height: 293px;
   font-size: 25px;
   color: white;
-  font-weight:320;
   font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
   vertical-align: middle;
-}
-.wrapper {
-  position: relative;
+  text-align: center;
 }
