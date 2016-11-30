@@ -1,3 +1,50 @@
-h1 {
-  color: salmon;
+body {
+  background-color: #BEA278;
+}
+#wrapper {
+  background-color: #BEA278;
+  width: 940px;
+  margin: 0 auto;
+}
+.top {
+  width: 293px;
+  height: 293px;
+  margin: 20px 10px;
+  float: left;
+}
+.bottom {
+  width: 293px;
+  height: 293px;
+  margin: 20px 10px;
+  float: left;
+}
+.clearfix, .clearfix2 {
+  clear: both;
+}
+
+h1, h4 {
+  color: #704B33;
+  text-align: center;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.button {
+  margin: 0 auto;
+  display: block;
+  padding: 8px 80px;
+  text-align: justify;
+  margin: 0 auto 20px auto;
+  font-size: 14px;
+}
+.city {
+  position: absolute;
+  left: 75px;
+  top: 75px;
+  font-size: 25px;
+  color: white;
+  font-weight:320;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  vertical-align: middle;
+}
+.wrapper {
+  position: relative;
 }
